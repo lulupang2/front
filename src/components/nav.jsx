@@ -10,6 +10,9 @@ const Nav = () => {
                 <li className="flex-1 mr-2">
                     <Link className="text-center block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-2 px-4" to='/list'>BOARD LIST</Link>
                 </li>
+                <li className="flex-1 mr-2">
+                    <Link className="text-center block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-2 px-4" to='/test'>TEST</Link>
+                </li>
                 <li className="text-center flex-1">
                     <a className="block py-2 px-4 text-gray-400 cursor-not-allowed" href="#">Disabled Item</a>
                 </li>

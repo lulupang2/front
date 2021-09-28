@@ -4,6 +4,7 @@ import Nav from './components/nav';
 import Home from './pages/home';
 import List from './pages/list';
 import Write from './pages/write';
+import Test from './test/index';
 
 class Main extends Component {
     render() {
@@ -13,6 +14,7 @@ class Main extends Component {
                 <Route exact path="/" component={Home} />
                 <Route path="/list" component={List} />
                 <Route path="/write" component={Write} />
+                <Route path="/test" component={Test} />
             </div>
         );
     }
